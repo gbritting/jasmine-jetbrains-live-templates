@@ -8,14 +8,14 @@ Live templates are abbreviations that are expanded into code fragments that you 
 
 There are other Jasmine live templates out there but with these we have simplified the act of remembering the abbreviations used as the expansion characters for the code fragment. Generally, you start with *j* for **J**asmine, then use the humps in the [camel-case](http://en.wikipedia.org/wiki/CamelCase) Jasmine function or Jasmine matcher name.
 
-For instance, *jbe*, **J**asmine **b**efore**E**ach, would expand the `beforeEach` live template giving you a Jasmine `beforeEach` setup function.
+For instance, *jbe*, __J__asmine __b__efore__E__ach, would expand the `beforeEach` live template giving you a Jasmine `beforeEach` setup function.
 
 <pre><code>beforeEach(function () {
 
 });
 </code></pre>
 
- *jtb*, **J**asmine **t**o**B**e would expand the `toBe` matcher Live Template giving you a Jasmine `toBe` expect matcher.
+ *jtb*, **J**asmine <b>t</b>o<b>B</b>e would expand the `toBe` matcher Live Template giving you a Jasmine `toBe` expect matcher.
 
 <pre><code>expect('actual').toBe('expected');</code></pre>
 
@@ -32,7 +32,7 @@ Copy the xml file to the following location:
 * **Linux:** ~\\.&lt;product name&gt;&lt;version number&gt;\\config\\templates
 * **MacOS:** ~/Library/Preferences/&lt;product name&gt;&lt;version number&gt;/templates
 
-Once copied, you should see them in the IDE (WebStorm, IntelliJ, etc.) under File -> Settings -> IDE Settings -> Live Templates
+Once copied, you should see the Live Templates in your IDE (WebStorm, IntelliJ, etc.) under File -> Settings -> IDE Settings -> Live Templates
 
 ##Suite, Spec, Setup and Teardown Live Templates
 <small>(NOTE: these first 3 do not follow the camel-case abbreviation)</small>
