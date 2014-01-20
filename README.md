@@ -1,8 +1,10 @@
 #Introduction
 
-###[Jasmine](http://jasmine.github.io/) Live Templates for use in [JetBrains](http://www.jetbrains.com) IDEs.
+###[Jasmine](http://jasmine.github.io/) Live Templates for use in [JetBrains](http://www.jetbrains.com) IDEs (WebStorm, PhpStorm, etc.)
 
-Live templates are abbreviations that are expanded into code fragments that you use to insert frequently-used code into your source. Live templates are a huge productivity boost, especially when constructing unit-tests where you will find yourself repetitively creating suites and specs.
+Jasmine is "a behavior-driven development (BDD) testing framework for JavaScript, Jasmine doesn’t rely on browsers, the Document Object Model (DOM) or other JavaScript libraries. Great for websites, node.js server-side coding, or any project running JavaScript, its clean syntax makes writing tests a breeze". ([Pivotal Labs](http://pivotallabs.com/tools/))
+
+Live templates are abbreviations that are expanded into code fragments that you use to insert frequently-used code into your source. Live templates are a huge productivity boost, especially when constructing unit-tests where you find yourself repetitively creating suites and specs. Live Templates are available in all JetBrains IDEs including IntelliJ, PyCharm, WebStorm, PhpStorm and RubyMine.
 
 ###Why These Are Different
 
@@ -31,9 +33,9 @@ Copy the xml file to the following location:
 * **Linux:** ~\\.&lt;product name&gt;&lt;version number&gt;\\config\\templates
 * **MacOS:** ~/Library/Preferences/&lt;product name&gt;&lt;version number&gt;/templates
 
-Once copied, you should be able to immediately use the Live Templates in your IDE (WebStorm, IntelliJ, etc.). You can view all the Live Templates in you system under File -> Settings -> IDE Settings -> Live Templates.
+Once copied, you should be able to immediately use the Live Templates in your IntelliJ, PyCharm, WebStorm, PhpStorm or RubyMine IDE. You can view all the Live Templates in you system under File -> Settings -> IDE Settings -> Live Templates.
 
-##Suite, Spec, Setup and Teardown Live Templates
+##Jasmine Suite, Spec, Setup and Teardown Live Templates
 <small>(NOTE: these first 3 do not follow the camel-case abbreviation)</small>
 
 `jdes` - **J**asmine Suite (<b>des</b>cribe)
@@ -66,7 +68,7 @@ Once copied, you should be able to immediately use the Live Templates in your ID
 
     });
 
-## Matchers
+## Jasmine Matchers
 `jtb` - **J**asmine **t**o<b>B</b>e `expect(x).toBe(y));`
 
 `jtbd` - **t**o<b>B</b>e<b>D</b>efined `expect(x).toBeDefined());`
