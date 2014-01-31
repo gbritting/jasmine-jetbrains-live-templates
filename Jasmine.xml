@@ -25,7 +25,7 @@
       <option name="OTHER" value="false" />
     </context>
   </template>
-  <template name="jitss" value="it('should $IT$', function () {&#10;    $END$&#10;});" description="Jasmine spec with should" toReformat="false" toShortenFQNames="true">
+  <template name="jits" value="it('should $IT$', function () {&#10;    $END$&#10;});" description="Jasmine spec with should" toReformat="false" toShortenFQNames="true">
     <variable name="IT" expression="" defaultValue="&quot;spec title&quot;" alwaysStopAt="true" />
     <context>
       <option name="HTML_TEXT" value="false" />

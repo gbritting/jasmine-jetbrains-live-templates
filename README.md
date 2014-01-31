@@ -50,7 +50,7 @@ Once copied, you should be able to immediately use the Live Templates in your In
     
     });
 
-`jits` - **J**asmine Spec (<b>it s</b>hould)
+`jits` - **J**asmine Spec (<b>it</b> and starts your spec with the word <b>s</b>hould)
 
     it('should ', function () {
 
